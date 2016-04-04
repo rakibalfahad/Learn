@@ -1,3 +1,15 @@
+"""
+Now we know how to convert BGR image to HSV, we can use this to extract a colored object. In HSV, it is more easier to represent a color than RGB color-space. In our application, we will try to extract a blue colored object. So here is the method:
+
+Take each frame of the video
+Convert from BGR to HSV color-space
+We threshold the HSV image for a range of blue color
+Now extract the blue object alone, we can do whatever on that image we want.
+Below is the code which are commented in detail :
+
+http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_colorspaces/py_colorspaces.html#converting-colorspaces
+
+"""
 import cv2
 import numpy as np
 
