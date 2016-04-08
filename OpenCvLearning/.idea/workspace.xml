@@ -37,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/ImageGradient.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="27" selection-end-column="10" />
               <folding>
                 <element signature="e#179#189#0" expanded="true" />
               </folding>
@@ -45,11 +45,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CannyEdgeDetection.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CannyEdgeDetection.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CannyEdgeDetection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49081364">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contours.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Contours.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+              <folding>
+                <element signature="e#647#665#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContourFeatures.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ContourFeatures.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#155#165#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HoughCircle.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HoughCircle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.31233597">
+              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -76,6 +110,9 @@
         <option value="$PROJECT_DIR$/MorphologicalTX.py" />
         <option value="$PROJECT_DIR$/ImageGradient.py" />
         <option value="$PROJECT_DIR$/CannyEdgeDetection.py" />
+        <option value="$PROJECT_DIR$/Contours.py" />
+        <option value="$PROJECT_DIR$/ContourFeatures.py" />
+        <option value="$PROJECT_DIR$/HoughCircle.py" />
       </list>
     </option>
   </component>
@@ -134,58 +171,7 @@
       <pane id="Scratches" />
     </panes>
   </component>
-  <component name="RunManager" selected="Python.CannyEdgeDetection">
-    <configuration default="false" name="Thresholding" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OpenCvLearning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Thresholding.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SmothingImage" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OpenCvLearning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SmothingImage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MorphologicalTX" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OpenCvLearning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MorphologicalTX.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.HoughCircle">
     <configuration default="false" name="ImageGradient" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,6 +202,57 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="OpenCvLearning" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CannyEdgeDetection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Contours" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OpenCvLearning" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Contours.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContourFeatures" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OpenCvLearning" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ContourFeatures.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="HoughCircle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OpenCvLearning" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HoughCircle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -343,23 +380,26 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Thresholding" />
-      <item index="1" class="java.lang.String" itemvalue="Python.SmothingImage" />
-      <item index="2" class="java.lang.String" itemvalue="Python.MorphologicalTX" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ImageGradient" />
-      <item index="4" class="java.lang.String" itemvalue="Python.CannyEdgeDetection" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ImageGradient" />
+      <item index="1" class="java.lang.String" itemvalue="Python.CannyEdgeDetection" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Contours" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ContourFeatures" />
+      <item index="4" class="java.lang.String" itemvalue="Python.HoughCircle" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.CannyEdgeDetection" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ImageGradient" />
-        <item index="2" class="java.lang.String" itemvalue="Python.MorphologicalTX" />
-        <item index="3" class="java.lang.String" itemvalue="Python.SmothingImage" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Thresholding" />
+        <item index="0" class="java.lang.String" itemvalue="Python.HoughCircle" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ContourFeatures" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Contours" />
+        <item index="3" class="java.lang.String" itemvalue="Python.CannyEdgeDetection" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ImageGradient" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="49e4c92c-af1b-4c71-93e8-80e9ba486eda" name="Default" comment="" />
@@ -378,7 +418,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -391,6 +431,14 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -405,7 +453,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="109" selection-start-line="2" selection-start-column="109" selection-end-line="2" selection-end-column="109" />
           <folding>
-            <element signature="e#143#153#0" expanded="true" />
+            <element signature="e#143#153#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -425,7 +473,7 @@
         <state vertical-scroll-proportion="1.4278215">
           <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="30" />
           <folding>
-            <element signature="e#110#120#0" expanded="true" />
+            <element signature="e#110#120#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -435,7 +483,7 @@
         <state vertical-scroll-proportion="0.7322835">
           <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
           <folding>
-            <element signature="e#622#632#0" expanded="true" />
+            <element signature="e#622#632#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -453,7 +501,7 @@
     <entry file="file://$PROJECT_DIR$/ImageGradient.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="27" selection-end-column="10" />
           <folding>
             <element signature="e#179#189#0" expanded="true" />
           </folding>
@@ -462,8 +510,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CannyEdgeDetection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49081364">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Contours.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding>
+            <element signature="e#647#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContourFeatures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#155#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HoughCircle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31233597">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
