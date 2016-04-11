@@ -118,6 +118,8 @@ def gen_images(locs, features, nGridPoints, normalize=True,
 # #pl.ion();
 # #pl.show();
 
+print "done"
+
 
 mat = scipy.io.loadmat('Neuroscan_locs_orig')
 caploc=mat['A']

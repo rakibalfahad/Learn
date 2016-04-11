@@ -5,7 +5,6 @@ import numpy as np
 np.random.seed(1234)
 
 import math as m
-
 import scipy.io
 import theano
 import theano.tensor as T

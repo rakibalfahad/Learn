@@ -104,7 +104,6 @@ def build_cnn(input_var=None, W_init=None):
 
     return network, weights
 
-
 def build_convpool_max(input_vars):
     """
     Builds the complete network with maxpooling layer in time.
@@ -119,7 +118,7 @@ def build_convpool_max(input_vars):
         if i == 0:
             convnet, W_init = build_cnn(input_vars[i])
         else:
-            convnet, _ = build_cnn(input_vars[i], W_init)
+            convnet, _ = build_cnn(input_vars[i], W_init)## generate networks
         convnets.append(convnet)
     # convpooling using Max pooling over frames
     convpool = ElemwiseMergeLayer(convnets, theano.tensor.maximum)
