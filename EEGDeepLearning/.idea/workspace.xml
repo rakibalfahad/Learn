@@ -21,44 +21,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="preprocess_samples.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Theano/preprocess_samples.py">
+      <file leaf-file-name="cnn_deap.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Theano/cnn_deap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.52323234">
+              <caret line="201" column="55" selection-start-line="201" selection-start-column="55" selection-end-line="201" selection-end-column="55" />
               <folding>
-                <element signature="e#392#410#0" expanded="true" />
-                <element signature="e#1510#4902#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eeg_cnn_lib.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Theano/eeg_cnn_lib.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
-              <folding>
-                <element signature="e#5000#6733#0" expanded="false" />
-                <element signature="e#6838#9118#0" expanded="false" />
-                <element signature="e#9174#10318#0" expanded="false" />
-                <element signature="e#10375#11947#0" expanded="false" />
-                <element signature="e#12018#14239#0" expanded="false" />
-                <element signature="e#14308#16874#0" expanded="false" />
-                <element signature="e#16963#17435#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeapdataCNN.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Theano/DeapdataCNN.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53913045">
-              <caret line="252" column="36" selection-start-line="252" selection-start-column="36" selection-end-line="252" selection-end-column="36" />
-              <folding>
-                <element signature="e#5987#6423#0" expanded="false" />
+                <element signature="e#1856#4121#0" expanded="false" />
+                <element signature="e#4884#5291#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -78,7 +48,7 @@
         <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/lasagne/layers/helper.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="182" column="77" selection-start-line="182" selection-start-column="77" selection-end-line="182" selection-end-column="77" />
+              <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -111,6 +81,7 @@
         <option value="$PROJECT_DIR$/Theano/preprocess_samples.py" />
         <option value="$PROJECT_DIR$/Theano/eeg_cnn_convpool.py" />
         <option value="$PROJECT_DIR$/Theano/DeapdataCNN.py" />
+        <option value="$PROJECT_DIR$/Theano/cnn_deap.py" />
       </list>
     </option>
   </component>
@@ -145,8 +116,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -171,6 +140,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -417,19 +388,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20337197" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3213898" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925472" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41824248" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -459,9 +430,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$USER_HOME$/Anaconda2/Lib/site-packages/lasagne/layers/helper.py</url>
-          <line>184</line>
-          <option name="timeStamp" value="25" />
+          <url>file://$PROJECT_DIR$/Theano/cnn_deap.py</url>
+          <line>211</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Theano/DeapdataCNN.py</url>
+          <line>336</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -471,17 +447,140 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="mat" language="Python" />
         <watch expression="input_var" language="Python" />
         <watch expression="data.shape" language="Python" />
+        <watch expression="prediction" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Theano/preprocess_samples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding>
+            <element signature="e#392#410#0" expanded="true" />
+            <element signature="e#1510#4902#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theano/eeg_cnn_lib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
+          <folding>
+            <element signature="e#5000#6733#0" expanded="false" />
+            <element signature="e#6838#9118#0" expanded="false" />
+            <element signature="e#9174#10318#0" expanded="false" />
+            <element signature="e#10375#11947#0" expanded="false" />
+            <element signature="e#12018#14239#0" expanded="false" />
+            <element signature="e#14308#16874#0" expanded="false" />
+            <element signature="e#16963#17435#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theano/DeapdataCNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#5987#6423#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/lasagne/layers/pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="235" column="52" selection-start-line="235" selection-start-column="52" selection-end-line="235" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/lasagne/layers/helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theano/eeg_cnn_convpool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="117" column="18" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theano/preprocess_samples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding>
+            <element signature="e#392#410#0" expanded="true" />
+            <element signature="e#1510#4902#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theano/eeg_cnn_lib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
+          <folding>
+            <element signature="e#5000#6733#0" expanded="false" />
+            <element signature="e#6838#9118#0" expanded="false" />
+            <element signature="e#9174#10318#0" expanded="false" />
+            <element signature="e#10375#11947#0" expanded="false" />
+            <element signature="e#12018#14239#0" expanded="false" />
+            <element signature="e#14308#16874#0" expanded="false" />
+            <element signature="e#16963#17435#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theano/DeapdataCNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#5987#6423#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/lasagne/layers/pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="235" column="52" selection-start-line="235" selection-start-column="52" selection-end-line="235" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/lasagne/layers/helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="182" column="77" selection-start-line="182" selection-start-column="77" selection-end-line="182" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theano/eeg_cnn_convpool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="117" column="18" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Theano/preprocess_samples.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -690,17 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Theano/preprocess_samples.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding>
-            <element signature="e#392#410#0" expanded="true" />
-            <element signature="e#1510#4902#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/lasagne/layers/input.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -723,9 +811,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Theano/eeg_cnn_lib.py">
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/lasagne/layers/pool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="235" column="52" selection-start-line="235" selection-start-column="52" selection-end-line="235" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/lasagne/layers/helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/theano/gof/cmodule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.1535354">
+          <caret line="2204" column="55" selection-start-line="2204" selection-start-column="55" selection-end-line="2204" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theano/DeapdataCNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5939394">
+          <caret line="245" column="0" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
+          <folding>
+            <element signature="e#5987#6423#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theano/eeg_cnn_lib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.034343433">
           <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
           <folding>
             <element signature="e#5000#6733#0" expanded="false" />
@@ -739,28 +861,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/lasagne/layers/pool.py">
+    <entry file="file://$PROJECT_DIR$/Theano/preprocess_samples.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="235" column="52" selection-start-line="235" selection-start-column="52" selection-end-line="235" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/lasagne/layers/helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="182" column="77" selection-start-line="182" selection-start-column="77" selection-end-line="182" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Theano/DeapdataCNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53913045">
-          <caret line="252" column="36" selection-start-line="252" selection-start-column="36" selection-end-line="252" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.034343433">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
           <folding>
-            <element signature="e#5987#6423#0" expanded="false" />
+            <element signature="e#392#410#0" expanded="true" />
+            <element signature="e#1510#4902#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theano/cnn_deap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52323234">
+          <caret line="201" column="55" selection-start-line="201" selection-start-column="55" selection-end-line="201" selection-end-column="55" />
+          <folding>
+            <element signature="e#1856#4121#0" expanded="false" />
+            <element signature="e#4884#5291#0" expanded="false" />
           </folding>
         </state>
       </provider>
